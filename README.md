@@ -4,8 +4,30 @@ Generate uniform grids of points on probability simplexes.
 
 ## Installation
 
+### Install from GitHub
+
+Clone the repository and install locally:
+
 ```bash
-pip install simplex_grid
+git clone https://github.com/beca-filip/simplex_grid.git
+cd simplex_grid
+pip install .
+```
+
+Or install directly from GitHub:
+
+```bash
+pip install git+https://github.com/beca-filip/simplex_grid.git
+```
+
+### Development Installation
+
+For development with editable installation:
+
+```bash
+git clone https://github.com/beca-filip/simplex_grid.git
+cd simplex_grid
+pip install -e .
 ```
 
 ## Usage
