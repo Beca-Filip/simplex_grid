@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simplex_grid"
+version = "0.1.0"
+description = "Generate uniform grids of points on probability simplexes"
+readme = "README.md"
+authors = [
+    {name = "Filip Becanovic", email = "becaphilippe@gmail.com"}
+]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=1.19.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/beca-filip/simplex_grid"
+"Bug Tracker" = "https://github.com/beca-filip/simplex_grid/issues"

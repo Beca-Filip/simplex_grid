@@ -1,0 +1,9 @@
+# Development dependencies for building and distributing the package
+build>=0.10.0
+twine>=4.0.0
+setuptools>=65.0.0
+wheel>=0.40.0
+
+# Testing (optional)
+pytest>=7.0.0
+numpy>=1.19.0
